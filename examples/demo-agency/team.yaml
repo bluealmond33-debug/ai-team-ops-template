@@ -1,0 +1,21 @@
+name: demo-ai-team
+mode: demo
+
+agents:
+  - name: Builder
+    role: Turns issues into working outputs
+  - name: Reviewer
+    role: Checks clarity, safety, and evidence
+  - name: Researcher
+    role: Collects sources and summarizes with citations
+
+channels:
+  requests: demo-requests
+  handoffs: demo-handoffs
+  reviews: demo-reviews
+  briefs: demo-briefs
+
+rules:
+  - No real secrets in repo
+  - Use state files for long tasks
+  - Verify before reporting done
