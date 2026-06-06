@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Obsidian Vault Example">
+  <defs>
+    <pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="12" stroke="#3a332f" stroke-width="2" opacity="0.45"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#000000" flood-opacity="0.22"/>
+    </filter>
+    <style>
+      .title { font: 800 42px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #D9D9D9; letter-spacing: -1px; }
+      .subtitle { font: 500 21px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #cfc7c1; }
+      .label { font: 800 24px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #231E1B; }
+      .small { font: 600 17px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #6B625D; }
+      .tiny { font: 600 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #6B625D; }
+      .mono { font: 600 16px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #231E1B; }
+      .monoSmall { font: 600 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #6B625D; }
+    </style>
+  </defs>
+  <rect width="1200" height="675" fill="#231E1B"/>
+  <rect width="1200" height="675" fill="url(#hatch)" opacity="0.35"/>
+  <text x="70" y="82" class="title">기록은 노트처럼 쌓기</text>
+<text x="72" y="118" class="subtitle">결정, 회고, 학습을 다음 프로젝트에서 다시 찾을 수 있게 만듭니다</text>
+<rect x="110" y="155" width="980" height="430" rx="28" fill="#F3EEE8" stroke="#ffffff" stroke-width="2" filter="url(#shadow)"/><rect x="160" y="230" width="370" height="64" rx="18" fill="#D9D9D9" stroke="#231E1B" stroke-width="2"/>
+<path d="M182 252 h65 l14 14 h-79 z" fill="#F2C14E" opacity="0.95"/>
+<text x="275" y="261" class="label" font-size="21">00 Inbox</text>
+<text x="275" y="284" class="tiny">들어온 자료</text>
+<rect x="615" y="230" width="370" height="64" rx="18" fill="#D9D9D9" stroke="#231E1B" stroke-width="2"/>
+<path d="M637 252 h65 l14 14 h-79 z" fill="#89B4FA" opacity="0.95"/>
+<text x="730" y="261" class="label" font-size="21">01 Projects</text>
+<text x="730" y="284" class="tiny">진행 중 작업</text>
+<rect x="160" y="325" width="370" height="64" rx="18" fill="#D9D9D9" stroke="#231E1B" stroke-width="2"/>
+<path d="M182 347 h65 l14 14 h-79 z" fill="#A6E3A1" opacity="0.95"/>
+<text x="275" y="356" class="label" font-size="21">02 Decisions</text>
+<text x="275" y="379" class="tiny">중요 결정</text>
+<rect x="615" y="325" width="370" height="64" rx="18" fill="#D9D9D9" stroke="#231E1B" stroke-width="2"/>
+<path d="M637 347 h65 l14 14 h-79 z" fill="#F38BA8" opacity="0.95"/>
+<text x="730" y="356" class="label" font-size="21">03 Research</text>
+<text x="730" y="379" class="tiny">조사와 근거</text>
+<rect x="160" y="420" width="370" height="64" rx="18" fill="#D9D9D9" stroke="#231E1B" stroke-width="2"/>
+<path d="M182 442 h65 l14 14 h-79 z" fill="#CBA6F7" opacity="0.95"/>
+<text x="275" y="451" class="label" font-size="21">04 Worklogs</text>
+<text x="275" y="474" class="tiny">AI 작업 기록</text>
+<rect x="615" y="420" width="370" height="64" rx="18" fill="#D9D9D9" stroke="#231E1B" stroke-width="2"/>
+<path d="M637 442 h65 l14 14 h-79 z" fill="#F2C14E" opacity="0.95"/>
+<text x="730" y="451" class="label" font-size="21">05 Retros</text>
+<text x="730" y="474" class="tiny">회고와 개선</text>
+<text x="600" y="540" text-anchor="middle" style="font:800 24px sans-serif; fill:#231E1B;">AI가 한 일을 기록으로 남겨야 운영 방식이 자산이 됩니다</text>
+
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Issue Example">
+  <defs>
+    <pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="12" stroke="#3a332f" stroke-width="2" opacity="0.45"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#000000" flood-opacity="0.22"/>
+    </filter>
+    <style>
+      .title { font: 800 42px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #D9D9D9; letter-spacing: -1px; }
+      .subtitle { font: 500 21px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #cfc7c1; }
+      .label { font: 800 24px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #231E1B; }
+      .small { font: 600 17px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #6B625D; }
+      .tiny { font: 600 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #6B625D; }
+      .mono { font: 600 16px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #231E1B; }
+      .monoSmall { font: 600 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #6B625D; }
+    </style>
+  </defs>
+  <rect width="1200" height="675" fill="#231E1B"/>
+  <rect width="1200" height="675" fill="url(#hatch)" opacity="0.35"/>
+  <text x="70" y="82" class="title">작업은 Issue처럼 작게 쪼개기</text>
+<text x="72" y="118" class="subtitle">큰 요청을 바로 실행하지 말고, 확인 가능한 단위로 나눕니다</text>
+<rect x="90" y="155" width="1020" height="430" rx="28" fill="#F3EEE8" stroke="#ffffff" stroke-width="2" filter="url(#shadow)"/><text x="135" y="215" class="label">#001 프로젝트 소개 문서 만들기</text>
+<rect x="135" y="245" width="150" height="34" rx="17" fill="#A6E3A1"/><text x="210" y="268" text-anchor="middle" class="tiny" fill="#231E1B">good first task</text>
+<rect x="305" y="245" width="95" height="34" rx="17" fill="#89B4FA"/><text x="352" y="268" text-anchor="middle" class="tiny">docs</text>
+<rect x="140" y="301" width="26" height="26" rx="6" fill="#D9D9D9" stroke="#231E1B" stroke-width="3"/>
+<path d="M146 315 l7 8 l17 -20" fill="none" stroke="#231E1B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="185" y="325" class="small">무엇을 만들지 5줄로 설명</text>
+<rect x="140" y="356" width="26" height="26" rx="6" fill="#D9D9D9" stroke="#231E1B" stroke-width="3"/>
+<path d="M146 370 l7 8 l17 -20" fill="none" stroke="#231E1B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="185" y="380" class="small">대상 사용자를 3개 bullet로 정리</text>
+<rect x="140" y="411" width="26" height="26" rx="6" fill="#D9D9D9" stroke="#231E1B" stroke-width="3"/>
+<path d="M146 425 l7 8 l17 -20" fill="none" stroke="#231E1B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="185" y="435" class="small">완료 조건과 검증 방법 작성</text>
+<rect x="140" y="466" width="26" height="26" rx="6" fill="#D9D9D9" stroke="#231E1B" stroke-width="3"/>
+<path d="M146 480 l7 8 l17 -20" fill="none" stroke="#231E1B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="185" y="490" class="small">AI가 참고한 파일/근거 남기기</text>
+<rect x="760" y="315" width="270" height="130" rx="22" fill="#231E1B"/>
+<text x="895" y="363" text-anchor="middle" style="font:800 25px sans-serif; fill:#D9D9D9;">작게 나누면</text>
+<text x="895" y="398" text-anchor="middle" style="font:700 20px sans-serif; fill:#cfc7c1;">AI 결과를 검증하기 쉽다</text>
+
+</svg>
